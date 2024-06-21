@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navContainer {
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    width: 100%;
+}
+
+.navBar {
+    background-color: rgb(80, 114, 123);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    /* margin-left: 10px; */
+    /* background-color: black; */
+    width: 40%;
+}
+
+.Logo img {
+    width: 18%;
+    margin: 15px;
+    border: 5px solid black;
+}
+
+.navlinks {
+    /* background-color: white; */
+    /* margin-right: 350px; */
+    padding-right: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlinks li {
+    padding: 40px;
+    list-style-type: none;
+}
+
+.navlinks a {
+    color: rgb(205, 230, 243);
+    text-decoration: none;
+    font-size: 150%;
+}
+
+.media {
+    /* background-color: aliceblue; */
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media li {
+    padding: 15px;
+    list-style-type: none;
+}
+
+.media a {
+    color: rgb(205, 230, 243);
+    font-size: 150%;
+}
+
+.heroSection {
+    background-color: rgb(52, 73, 85);
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carimg {
+    /* background-color: black; */
+    height: 80%;
+    display: flex;
+    margin: 10px;
+}
+
+.carimg img {
+    border: 5px solid rgb(120, 160, 131);
+    border-radius: 15px;
+}
+
+.jumbotron h1 {
+    margin: 5px;
+    color: rgb(205, 230, 243);
+
+}
+
+span {
+    color: rgb(157, 208, 171);
+}
+
+.jumbotron {
+    /* background-color: white; */
+    margin: 10px;
+    height: 200px;
+    width: 700px;
+    text-align: center;
+    font-size: 120%;
+}
+
+.jumbotron p {
+    color: rgb(205, 230, 243);
+}
+
+.jumbotron button {
+    margin: 20px;
+    padding: 10px;
+    font-size: 120%;
+    border: 2px solid rgb(157, 208, 171);
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+button a {
+    color: rgb(157, 208, 171);
+    text-decoration: none;
+}
+
+main {
+    /* background-color: rgb(80, 114, 123); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* margin-top: 60px; */
+}
+
+.cardContainer {
+    width: 100%;
+    background-color: rgb(80, 114, 123);
+    padding: 50px 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(52, 73, 85);
+    border-radius: 20px;
+    box-shadow: 2px 3px 3px rgb(80, 114, 123);
+}
+
+.cardHeader img {
+    width: 100%;
+    /* padding: 5px; */
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    /* border: 10px solid rgb(80, 114, 123); */
+}
+
+.cardbody {
+    text-align: center;
+    margin-top: 25px;
+    padding: 0 30px 30px;
+}
+
+.cardbody h3 {
+    padding: 18px 0;
+    /* color: rgb(120, 160, 131); */
+    color: rgb(205, 230, 243);
+}
+
+.cardbody p {
+    color: rgb(157, 208, 171);
+}
+
+.cardbody button {
+    height: 25px;
+    width: 100px;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 110%;
+    margin-top: 15px;
+    /* color: rgb(157, 208, 171); */
+}
+
+.cardbody button a {
+    color: rgb(157, 208, 171)
+}
+
+.gallery {
+    background-color: rgb(80, 114, 123);
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    /* padding: 10px; */
+
+}
+
+.gallery img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.footContainer {
+    background-color: rgb(52, 73, 85);
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerbar1 li {
+    /* color: rgb(28, 37, 42); */
+    list-style-type: none;
+}
+
+.footerbar1 a {
+    font-size: 110%;
+    /* color: rgb(17, 18, 18); */
+    color: rgb(157, 208, 171); 
+    text-decoration: none;
+    margin: 10px;
+}
+
+.footerbar2 li {
+    list-style: none;
+}
+
+.footerbar2 a {
+    font-size: 110%;
+    color: rgb(157, 208, 171) ;
+    text-decoration: none;
+}
+
+.footerbar3 li {
+    list-style: none;
+}
+
+.footerbar3 a {
+    /* background-color: aliceblue; */
+    font-size: 110%;
+    color: rgb(157, 208, 171) ;
+    text-decoration: none;
+    margin-right: 20px;
+}

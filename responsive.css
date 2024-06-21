@@ -1,0 +1,73 @@
+.checkbtn {
+    color: #ffffff;
+    font-size: 25px;
+    margin-right: 20px;
+    padding: 4px 5px 1px 5px;
+    display: none;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+}
+
+#check {
+    display: none;
+}
+
+@media(max-width:576px) {
+    .Logo{
+        width: 500%;
+    }
+    .navlinks {
+        background-color: rgb(134, 198, 216);
+        position: absolute;
+        top: 100px;
+        flex-direction: column;
+        display: none;
+        height: 300px;
+        width: 100%;
+    }
+
+    .navlinks li {
+        background-color: rgb(80, 114, 123);
+        height: 5%;
+        width: 100%;
+        margin: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .navlinks li :hover {
+        background-color: rgb(80, 114, 123);
+    }
+
+    .checkbtn {
+        display: block;
+    }
+    #check {
+        display: block;
+    }
+
+    #check:checked~.navlinks {
+        display: flex;
+    }
+
+    .carimg img {
+        width: 500px;
+        height: 300px;
+    }
+    .heroSection {
+        flex-direction: column;
+    }
+
+    .jumbotron{
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 700px;
+        /* padding: 300px; */
+        /* margin-top: 200px; */
+    }
+}
